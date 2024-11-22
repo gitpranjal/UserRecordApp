@@ -19,28 +19,21 @@ A simple React Native mobile application to manage user records. The app allows 
 ### User List Screen
 Displays the list of users with a button to add new users.
 
-![User List Screen](../assets/ListUser.jpg)
+![User List Screen](https://github.com/gitpranjal/UserRecordApp/blob/main/assets/ListUser.jpg)
 
 ---
 
 ### Add New User Screen
 The form to add new users.
 
-![Add New User Screen](../assets/AddUser.jpg)
+![Add New User Screen](https://github.com/gitpranjal/UserRecordApp/blob/main/assets/AddUser.jpg)
 
 ---
 
 ### User Detail Screen/ Delete User Screen
 View or delete user details.
 
-![User Detail Screen](../assets/DeleteUser.jpg)
-
----
-
-### Updated User List Screen
-View the updated user list after adding a new user.
-
-![Updated User List Screen](./Screenshot%202024-11-22%20at%205.49.11%20AM.png)
+![User Detail Screen](https://github.com/gitpranjal/UserRecordApp/blob/main/assets/DeleteUser.jpg)
 
 ---
 
