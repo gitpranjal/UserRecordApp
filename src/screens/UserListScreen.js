@@ -17,7 +17,7 @@ const UserListScreen = (props) => {
   };
 
   const [userlist, setUserlist] = useState([
-    { name: "Donald Trump", age: "80", department: "MCD" },
+    { name: "Christino Ronaldo", age: "35", department: "Portugal Football Club" },
   ]);
 
   return (
