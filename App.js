@@ -1,16 +1,42 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import HomeScreen from "./src/screens/HomeScreen";
+import UserListScreen from "./src/screens/UserListScreen";
+import UserDetail from "./src/screens/UserDetail";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
+
+    UserListScreen: {
+      screen: UserListScreen,
+      navigationOptions: {
+        title: "User List",
+        headerStyle: {
+          backgroundColor: "#3a4ca1",
+        },
+        headerTitleStyle: {
+          color: "#fff",
+          fontWeight: "bold",
+          fontSize: 18,
+        },
+      },
+    },
+    UserDetail: {
+      screen: UserDetail,
+      navigationOptions: {
+        title: "User Detail",
+        headerStyle: {
+          backgroundColor: "#3a4ca1",
+        },
+        headerTitleStyle: {
+          color: "#fff",
+          fontWeight: "bold",
+          fontSize: 18,
+        },
+      },
+    },
   },
   {
-    initialRouteName: "Home",
-    defaultNavigationOptions: {
-      title: "App",
-    },
+    initialRouteName: "UserListScreen",
   }
 );
 

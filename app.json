@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "rn-starter",
+    "newArchEnabled": true,
     "slug": "rn-starter",
     "version": "1.0.0",
     "orientation": "portrait",
